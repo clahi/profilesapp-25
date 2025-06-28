@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_amplify_app" "notesapp" {
-  name       = "notesapp"
+  name       = "profilesapp"
   repository = "https://github.com/clahi/profilesapp-25"
 
   # The default build_spec added by the Amplify Console React.
